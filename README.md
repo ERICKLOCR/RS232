@@ -1,6 +1,9 @@
 
 Dirijirse a la Pagina de NVIDIA para desargar el jetpack (Dependiendo de la versión de Ubuntu que se tenga instalada en la computadora se elegirá la versión de Jetpack )
 
+En nuestro caso tenemos instalado Ubuntu 18.04 en la computadora por lo cual instalaremos   
+
+[NVIDIA Jetpack 3.3.3](https://developer.nvidia.com/embedded/jetpack-3_3_3)
 
 
 Conectar la fuente de alimenatcion a la Jetson 
