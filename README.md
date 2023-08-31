@@ -16,6 +16,10 @@
 5. Istatalar ROS en la Jetson
 
 6. Confifurar el host
+
+```
+sudo gedit hosts
+```
    
 8. Copiar las carpetas o descargaslas desde
 
