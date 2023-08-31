@@ -1,8 +1,9 @@
 
+Dirijirse a la Pagina de NVIDIA para desargar el jetpack (Dependiendo de la versión de Ubuntu que se tenga instalada en la computadora se elegirá la versión de Jetpack )
 
 
-Conectar a Jetson
-------------------------
+
+Conectar la fuente de alimenatcion a la Jetson 
 Conectar a internet
 contaseña ROS_UTM_2.4G=robotica
 ------------------------
@@ -10,9 +11,9 @@ Copiar en la computadora y en la jetson
 -----------------------
 La IP varia 
 ----------------------
- export ROS_MASTER_URI=http://192.168.43.178:11311
-  export ROS_IP=192.168.43.178
- export ROS_HOSTNAME=192.168.43.178
+ export ROS_MASTER_URI=http://192.168.43.xxx:11311
+  export ROS_IP=192.168.43.xxx
+ export ROS_HOSTNAME=192.168.43.xxx
 
  
 
