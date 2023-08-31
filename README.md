@@ -7,10 +7,15 @@
 3. Grabar la imagen en la SD
 
 
-4. CHECK WIFI
+Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y poder inciar con la configuracion. 
+
+4.     Instalar los drives para WIFI  "rtl88x2bu".  
 
 5. Istatalar ROS en la Jetson 
 
+6. Copiar las carpetas o descargaslas desde
+
+7. 
 
 #Observaciones durante el proceso 
 
