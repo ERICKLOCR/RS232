@@ -7,7 +7,7 @@
 3. Grabar la imagen en la SD
 
 
-Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y poder inciar con la configuracion. 
+   Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y      poder inciar con la configuracion. 
 
 4. Instalar los drives para WIFI  "rtl88x2bu".  
 
