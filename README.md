@@ -16,10 +16,12 @@
 5. Istatalar ROS en la Jetson
 
 6. Confifurar el host
+   En la terminal ejecutar
 
 ```
 sudo gedit hosts
 ```
+   Una vez despliega un archivo se configura de la manera siguiente. 
    
 8. Copiar las carpetas o descargaslas desde
 
