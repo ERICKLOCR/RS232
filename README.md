@@ -9,13 +9,15 @@
 
 Posteriormente se coloca la SD en la jetson para poder conertarla a la alimeacion y poder inciar con la configuracion. 
 
-4.     Instalar los drives para WIFI  "rtl88x2bu".  
+4. Instalar los drives para WIFI  "rtl88x2bu".  
 
-5. Istatalar ROS en la Jetson 
+5. Istatalar ROS en la Jetson
 
-6. Copiar las carpetas o descargaslas desde
+6. Confifurar el host
+   
+8. Copiar las carpetas o descargaslas desde
 
-7. 
+9.Si se tiene configuradas varias redes de internet se tendría que realizar la siguiente configuración para que cuando esta inicie se conecte automáticamente a la red que se espera.
 
 #Observaciones durante el proceso 
 
