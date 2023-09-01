@@ -1,4 +1,4 @@
-# Controlar al turtlebot2 desde la jetson mediante cable 
+# AUTOSTART
 
 ## Configuraciones iniciales 
 1. Dirijirse a la Pagina de NVIDIA para desargar el jetpack (Dependiendo de la versión de Ubuntu que se tenga instalada en la computadora se elegirá la versión de Jetpack).
