@@ -27,6 +27,40 @@ sudo gedit hosts
 
 9.Si se tiene configuradas varias redes de internet se tendría que realizar la siguiente configuración para que cuando esta inicie se conecte automáticamente a la red que se espera.
 
+## --
+
+Una vez conectada la Jetson a la fuente de alimentacion se ejecuta la terminal
+
+```
+User=robotica
+[Install]
+WantedBy=multi-user.target
+```
+Una vez configurado 
+
+Se abre la carpeta del autostart.sh y se copian las siguientes lineas
+
+```
+#!/bin/bash
+passord='robotica'
+source /opt/ros/melodic/setup.bash
+source ~/Turtlebot2/devel/setup.bash
+export ROS_MASTER_URI=http://192.168.43.178:11311
+export ROS_IP=192.168.43.178
+sleep 15
+
+echo $passwor | sudo -S chmod 777 /dev/ttyUSB0 
+
+sleep 15
+
+roscore &
+sleep 15
+
+roslaunch rplidar_ros rplidar_a1.launch &
+sleep 15
+
+roslaunch turtlebot_bringup minimal.launch & 
+```
 
 ## Instlacion de los drives para leer el Lidar desde la Jetson
 
