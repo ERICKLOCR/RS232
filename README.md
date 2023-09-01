@@ -38,7 +38,11 @@ WantedBy=multi-user.target
 ```
 Una vez configurado 
 
-Se abre la carpeta del autostart.sh y se copian las siguientes lineas
+Se abre la carpeta del autostart.sh 
+```
+sudo gedit /usr/local/bin/autostart.sh
+```
+se copian las siguientes lineas
 
 ```
 #!/bin/bash
@@ -60,6 +64,13 @@ roslaunch rplidar_ros rplidar_a1.launch &
 sleep 15
 
 roslaunch turtlebot_bringup minimal.launch & 
+```
+Se aguardan los cambios y se ejecutan los siguientes comandos
+
+```
+sudo systemctl enable autostart.service
+sudo systemctl start autostart.service
+sudo systemctl status autostart.service 
 ```
 
 ## Instlacion de los drives para leer el Lidar desde la Jetson
